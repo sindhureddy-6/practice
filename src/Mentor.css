@@ -1,0 +1,211 @@
+#main-box {
+    width: 1294px;
+    height: 724px;
+    top: 185px;
+    left: 113px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.mentor-card {
+    border-radius: 8px;
+}
+
+.mentor-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 410px;
+    height: 68px;
+    padding: 12px 24px;
+    gap: 0px;
+    border-bottom: 1px solid #D1D5DB;
+    border-radius: 8px 8px 0px 0px;
+    opacity: 1;
+
+}
+
+.headline {
+    width: 211px;
+    height: 24px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--Royal-Blue, #030080);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    width: 122px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+}
+
+.button-content {
+    width: 56px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #030080;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: center;
+
+}
+
+.button-content span:first-child {
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    left: 3px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 8px;
+
+}
+
+.card-body {
+    width: 410px;
+
+    height: 656px;
+
+    padding: 16px;
+
+    gap: 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.quarter {
+    width: 227px;
+    height: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #030080;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.mentor {
+
+    width: 378px;
+    height: 80px;
+
+    border-radius: 4px;
+    border: 1px solid #CBCBCB;
+    padding: 0px 193px 0px 0px;
+    display: flex;
+
+
+}
+
+.mentor-left-design {
+    width: 8.69px;
+    height: 80px;
+
+}
+
+.mentor-details {
+    width: 157px;
+    height: 56px;
+    position: relative;
+    top: 12px;
+    left: 28px;
+}
+
+.mentor-name {
+    width: 158px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.mentor-role {
+    width: 157px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #030080;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.pending {
+    width: 378px;
+    height: 164px;
+
+    border-radius: 4px;
+    border: 1px solid #CBCBCB;
+    background: none;
+
+}
+
+.pending-left-design {
+    background: #B3261E66;
+    width: 8.69px;
+    height: 164px;
+
+    border-radius: 4px 0 0 4px;
+
+}
+
+.pending-approval {
+    width: 152px;
+    height: 28px;
+    top: 17px;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+    color: var(--Schemes-Error, #B3261E);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.pending-outer {
+    width: 211px;
+    height: 61px;
+
+
+    left: 83px;
+    position: relative;
+    padding: 10px 15px 10px 15px;
+
+}
+
+.pending-inner {
+    width: 179px;
+    height: 40px;
+    padding: 10px 16px 10px 12px;
+    gap: 8px;
+
+
+}
